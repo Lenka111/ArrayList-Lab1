@@ -1,5 +1,6 @@
 # ArrayList-Lab1
-Management Science and Efficiency
+
+Objective:	To type a simple Java program, execute ( run ) the program for some particular 			values, observe the output and then modify the program.
 
 Given 5 sequential, independent tasks
 ( tasks are ordered but still independent )
