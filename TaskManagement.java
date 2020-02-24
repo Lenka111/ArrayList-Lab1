@@ -7,40 +7,31 @@ import java.util.Scanner;
 public class TaskManagement
 
 {
-
     public static void main(String[] args)
 
-    {
-
+   {
+        // exception handling
         try
 
-        {
-
+       {
             Scanner scan = new Scanner(System.in);
 
             // define the tasks
-
             ArrayList<String> theTasks = new
 
-                    ArrayList<String>
-
-                    (Arrays.asList("Task 1", "Task 2", "Task 3",
+                    ArrayList<String>(Arrays.asList("Task 1", "Task 2", "Task 3",
 
                             "Task 4", "Task 5"));
 
             // define the task durations
 
-            ArrayList<Integer> theDurations = new
-
-                    ArrayList<Integer>
+            ArrayList<Integer> theDurations = new ArrayList<Integer>
 
                     (Arrays.asList(20, 25, 18, 9, 13));
 
             // define the task status
 
-            ArrayList<String> theStatus = new
-
-                    ArrayList<String>
+            ArrayList<String> theStatus = new ArrayList<String>
 
                     (Arrays.asList("Open", "Open", "Open", "Open",
 
